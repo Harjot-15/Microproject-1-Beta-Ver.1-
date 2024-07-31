@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.header, .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+    width: 100%;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mt-3 {
+    margin-top: 1.5rem !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+@media (max-width: 768px) {
+    .btn-lg {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}

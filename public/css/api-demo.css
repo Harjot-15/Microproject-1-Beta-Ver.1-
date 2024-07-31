@@ -1,0 +1,55 @@
+#refresh-data {
+    background-color: #6c757d;
+    color: white;
+    border-radius: 10px; /* 10px border-radius */
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#refresh-data:hover {
+    background-color: #5a6268; /* Slightly darker shade for hover */
+}
+
+
+
+/* Additional styles for the table */
+    .card {
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom:20px;
+    }
+    .table {
+        margin-bottom: 0; /* Remove default margin */
+    }
+    .table th,
+    .table td {
+        text-align: center; /* Center text in the table */
+        vertical-align: middle; /* Center text vertically */
+    }
+    .table thead th {
+        background-color: #343a40; /* Dark background for header */
+        color: white; /* White text for header */
+    }
+    .table tbody tr {
+        transition: all 0.3s ease-in-out;
+    }
+    .table tbody tr:hover {
+        background-color: #f1f1f1; /* Light grey background on hover */
+    }
+    .table {
+        border-collapse: separate;
+        border-spacing: 0 0.5rem; /* Space between rows */
+    }
+    .table td,
+    .table th {
+        border: none; /* Remove borders */
+        border-radius: 10px;
+    }
+    .table tbody tr {
+        border-radius: 10px;
+        overflow: hidden; /* Ensure rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
