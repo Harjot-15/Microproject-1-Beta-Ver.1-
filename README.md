@@ -1,6 +1,6 @@
-# Sikh Beperwah Project
+# Microproject#1 (Beta Ver.1)
 
-This project is a Node.js application built with Express.js, demonstrating the use of APIs and CRUD operations.
+This project is a Node.js application built with Express.js, demonstrating the use of APIs and JSON data.
 
 ## Getting Started
 
@@ -76,10 +76,11 @@ Microproject-1-Beta-Ver.1-
     │   contact.html
     │   index.html
     ├───css
-    │       styles.css
+    │       about.css
+    │       api-demo.css
     │       contact.css
-    └───js
-            api-demo.js
+    │       styles.css
+    └───images
 ```
 
 ### Project Description
@@ -90,27 +91,28 @@ This project consists of the following main files and directories:
     - Sets up the Express application.
     - Serves static files from the `public` directory.
     - Defines routes for the home, about, contact, and API demo pages.
+    - Imports the JSON data from `data.json` and serves it via a specific route.
 
 2. **data/data.json**:
     - Contains sample JSON data used in the API demo.
 
 3. **public/**:
-    - Contains HTML, CSS, and JavaScript files for the front-end of the application.
+    - Contains HTML, CSS, and image files for the front-end of the application.
 
 ### API Endpoints
 
 1. **GET /data**:
     - Returns the JSON data from `data/data.json`.
 
-### Testing with Postman
+### Front-End Interaction
 
-Postman is a powerful tool used to test APIs by making HTTP requests. Use Postman to test the API endpoint implemented in `app.js`:
+The `api-demo.html` page includes a button that fetches the JSON data from the server using an asynchronous function with `async/await`. The data is then displayed in a table.
 
-#### Fetching Data
+### Instructions
 
-- **GET Request**
-  - URL: `http://localhost:3000/data`
-  - Method: GET
+1. **API Demo Page**:
+   - Navigate to the API Demo page.
+   - Click the "Fetch Data" button to load and display the JSON data from the server.
 
 ### Additional Information
 
@@ -119,11 +121,6 @@ Postman is a powerful tool used to test APIs by making HTTP requests. Use Postma
 - **Contact Page**: Includes a form to contact the project creator.
 - **API Demo Page**: Demonstrates fetching data from the server and displaying it in a table format.
 
-### Contact
-
-If you have any questions or need further assistance, feel free to contact the project creator via the [Contact Page](contact.html).
-
 ```markdown
 Thanks 👋
 ```
-
